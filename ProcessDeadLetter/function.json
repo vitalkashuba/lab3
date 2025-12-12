@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "iot-sensor-queue/$DeadLetterQueue",
+      "connection": "SERVICE_BUS_CONNECTION_STRING"
+    }
+  ]
+}
